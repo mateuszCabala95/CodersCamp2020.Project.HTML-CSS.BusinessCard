@@ -83,10 +83,38 @@
 </section>
 
 <section id="contact" class="contact">
+    <h2 class="section-header">Contact</h2>
+    <form class="form">
+        <div class="input-wrapper">
+            <label for="name">Name </label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="input-wrapper">
+            <label for="mail">Email </label>
+            <input type="email" id="mail" required>
+        </div>
 
+
+        <div class="input-wrapper">
+            <label for="message">Message </label>
+            <textarea
+                    name="message"
+                    id="message"
+                    minlength="15"
+                    required
+            ></textarea>
+        </div>
+        <button type="submit">Send!</button>
+    </form>
+<div class="contact-wrapper">
+    <h3>Contact List</h3>
+    <ul class="contact-list">
+        <li><span>Send me a email</span> <br>email@address.com</li>
+        <li><span>Call me</span> <br>123-456-789</li>
+    </ul>
+</div>
 </section>
 <footer class="footer">
-
 </footer>
 </body>
 </html>
