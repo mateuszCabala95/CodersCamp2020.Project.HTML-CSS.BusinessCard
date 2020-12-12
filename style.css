@@ -38,12 +38,50 @@ a {
 .header {
     width: 100%;
     background-color: var(--light-shades-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: 0.3s;
 }
 
 .nav {
     width: 100%;
-
+    position: absolute;
+    top: -150px;
+    left: 0;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    transition: 0.3s;
+    transform: scale(0);
 }
+.menu-icons{
+    position: absolute;
+    z-index: 20;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 15px;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 5px;
+}
+
+.menu-toggle ~ .menu-icons > .close, .menu-toggle:checked ~ .menu-icons >.open{
+    display: none;
+}
+.menu-toggle:checked ~ .menu-icons > .close, .menu-toggle ~ .menu-icons >.open{
+    display: block;
+}
+.menu-toggle, .menu-toggle:checked{
+    opacity: 0;
+}
+
+.menu-toggle:checked ~ .nav{
+    position: absolute;
+    transform: scale(1) translateY(150px);
+}
+
 
 .nav-list {
     width: 100%;
@@ -319,6 +357,15 @@ a {
         font-size: 1.4rem;
     }
 
+    .menu-icons{
+        top: 25px;
+        right: 25px;
+        font-size: 1.7rem;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
     /*About me*/
     .section-header {
         font-size: 2.2rem;
@@ -442,6 +489,15 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+
+    .menu-icons{
+        font-size: 1.9rem;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+
     .nav-list {
         flex-wrap: nowrap;
         width: 98%;
@@ -649,6 +705,16 @@ a {
 }
 
 @media screen and (min-width: 992px) {
+
+    .header, .nav{
+        position: static;
+        transform: none;
+    }
+
+
+    .menu-toggle,.menu-icons{
+        display: none;
+    }
     .nav-item {
         margin: 15px 0;
     }
