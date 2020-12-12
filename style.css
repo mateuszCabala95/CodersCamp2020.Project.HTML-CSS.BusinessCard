@@ -30,8 +30,8 @@ ul {
 }
 
 a {
-    /*text-decoration: none;*/
-    /*color: black;*/
+    text-decoration: none;
+    color: black;
 }
 
 /*Header*/
@@ -119,10 +119,6 @@ a {
     font-family: var(--secondary-font);
 }
 
-.description ul {
-    list-style: none;
-}
-
 .description li {
     width: 100%;
     margin: 5px 0;
@@ -130,7 +126,6 @@ a {
 }
 
 .description a {
-    text-decoration: none;
     color: var(--main-brand-color);
     font-size: 1.2rem;
 }
@@ -202,8 +197,6 @@ a {
 .card-links a {
     background-color: var(--light-accent-color);
     padding: 5px 15px;
-    text-decoration: none;
-    color: black;
     border-radius: 5px;
     border: 2px solid var(--light-shades-color);
 }
