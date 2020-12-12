@@ -293,6 +293,28 @@ a {
     font-weight: normal;
 }
 
+/*Footer*/
+
+.footer {
+    margin-top: 25px;
+    width: 100%;
+    min-height: 50px;
+    background-color: var(--dark-shades-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0  0;
+}
+
+.footer span{
+    flex-shrink: 1;
+}
+
+.footer i{
+    color: red;
+}
+
+
 @media screen and (min-width: 480px) {
     /*Header*/
     .nav-item {
@@ -410,6 +432,18 @@ a {
         padding: 25px 0;
         font-size: 1rem;
     }
+    /*Footer*/
+    .footer {
+        margin-top: 35px;
+        min-height: 75px;
+        border-radius: 10px 10px 0  0;
+    }
+
+    .footer span{
+        flex-shrink: 1;
+        font-size: 1.1rem;
+    }
+
 
 
 }
@@ -619,7 +653,6 @@ a {
         font-size: 1.1rem;
     }
 
-
 }
 
 @media screen and (min-width: 992px) {
@@ -721,6 +754,18 @@ a {
         padding: 35px 0;
         font-size: 1.2rem;
     }
+    /*Footer*/
+    .footer {
+        margin-top: 50px;
+        min-height: 100px;
+        border-radius: 15px 15px 0  0;
+    }
+
+    .footer span{
+        flex-shrink: 1;
+        font-size: 1.2rem;
+    }
+
 
 
 }
@@ -781,8 +826,4 @@ a {
     100% {
         background-position: 0 50%;
     }
-}
-
-@keyframes bouncing {
-
 }
