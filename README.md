@@ -1,6 +1,8 @@
 # CodersCamp 2020 - Projekt HTML & CSS
 **Projekt wizytówka-portfolio** 
 ---
+[Strona mojego portfolio](https://mateuszcabala95.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/)
+---
 **Spis treści**
 - [Opis Projektu](#opis-projektu)
 - [Header](#header)
@@ -9,6 +11,7 @@
 - [Sekcja Contact](#contact)
 
 ## Opis projektu
+
 Projekt portfolio-wizytówka został napisany w podejściu [Mobile First](https://solv.pl/mobile-first-dlaczego-warto-tym-wiedziec/). Oznacza to podejście projektowania strony od najmniejszej rozdzielczości (telefon) do największej (komputer PC lub telewizor). Projekt składa się z nawigacji, 3 sekcji oraz stopki. W projekcie zostały również użyte ikony ze strony [Font Awesome](https://fontawesome.com/).
 
 Break points zostały podzielone na 
@@ -27,7 +30,7 @@ W sekcji Header znajdują się dwa główne elementy: **nawigacja** oraz **ikona
 
 
 ## About Me 
-Cześć, mam na imie Mateusz, a tutaj jest moje portfolio-wizytówka.
+
  W tej sekcji są podstawowe informacje na mój temat. Oprócz opisu mojej osoby znajdują się tutaj również linki do mojego Github, LinkedIn oraz możliwość pobrania mojego CV. Tutaj również dowiesz się podstawowych informacji na mój temat.
  
  ![Way how  to contact with me](./.github/images/About_me_features.png)
