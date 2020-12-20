@@ -55,7 +55,8 @@ a {
     transition: 0.3s;
     transform: scale(0);
 }
-.menu-icons{
+
+.menu-icons {
     position: absolute;
     z-index: 20;
     top: 20px;
@@ -63,21 +64,23 @@ a {
     font-size: 1.5rem;
     padding: 5px;
     margin: 15px;
-    background-color: rgba(255,255,255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
 }
 
-.menu-toggle ~ .menu-icons > .close, .menu-toggle:checked ~ .menu-icons >.open{
+.menu-toggle ~ .menu-icons > .close, .menu-toggle:checked ~ .menu-icons > .open {
     display: none;
 }
-.menu-toggle:checked ~ .menu-icons > .close, .menu-toggle ~ .menu-icons >.open{
+
+.menu-toggle:checked ~ .menu-icons > .close, .menu-toggle ~ .menu-icons > .open {
     display: block;
 }
-.menu-toggle, .menu-toggle:checked{
+
+.menu-toggle, .menu-toggle:checked {
     opacity: 0;
 }
 
-.menu-toggle:checked ~ .nav{
+.menu-toggle:checked ~ .nav {
     position: absolute;
     transform: scale(1) translateY(150px);
 }
@@ -128,7 +131,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient 5s ease infinite;
-    will-change: background-clip, -webkit-background-clip, -webkit-text-fill-color, animation ;
+    will-change: background-clip, -webkit-background-clip, -webkit-text-fill-color, animation;
 }
 
 .description {
@@ -258,7 +261,8 @@ a {
     margin: 15px 0;
 
 }
-.input-wrapper label{
+
+.input-wrapper label {
     position: absolute;
     top: 0;
     left: 10%;
@@ -266,6 +270,7 @@ a {
 
     transition: 0.3s;
 }
+
 .input-wrapper input, .input-wrapper textarea {
     padding: 5px;
     margin: 25px 0;
@@ -282,12 +287,13 @@ a {
     font-size: 1.2rem;
 }
 
-.input-wrapper:focus-within input, .input-wrapper:focus-within textarea{
-        padding: 5px;
-        margin: 0 10px;
-        transform: scale(1);
+.input-wrapper:focus-within input, .input-wrapper:focus-within textarea {
+    padding: 5px;
+    margin: 0 10px;
+    transform: scale(1);
 }
-.input-wrapper:focus-within label{
+
+.input-wrapper:focus-within label {
     top: -25px;
 }
 
@@ -300,25 +306,26 @@ a {
     cursor: pointer;
 }
 
-.contact-wrapper{
+.contact-wrapper {
     width: 90%;
     margin: 0 auto;
 }
 
-.contact-wrapper h3{
+.contact-wrapper h3 {
     text-align: center;
     margin: 25px 0;
 }
 
-.contact-list{
+.contact-list {
     margin-left: 15px;
 }
+
 .contact-list li {
     font-weight: bold;
     padding: 5px;
 }
 
-.contact-list li span{
+.contact-list li span {
     padding: 20px 0;
     font-family: var(--secondary-font);
     font-weight: normal;
@@ -334,14 +341,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px 5px 0  0;
+    border-radius: 5px 5px 0 0;
 }
 
-.footer span{
+.footer span {
     flex-shrink: 1;
 }
 
-.footer i{
+.footer i {
     color: red;
 }
 
@@ -357,7 +364,7 @@ a {
         font-size: 1.4rem;
     }
 
-    .menu-icons{
+    .menu-icons {
         top: 25px;
         right: 25px;
         font-size: 1.7rem;
@@ -425,13 +432,14 @@ a {
         border: 3px;
         font-size: 1.2rem;
     }
+
     /*Contact*/
     .form {
         padding: 30px 20px;
     }
 
     .input-wrapper {
-        margin:20px 0;
+        margin: 20px 0;
     }
 
     .input-wrapper input, .input-wrapper textarea {
@@ -440,12 +448,13 @@ a {
     }
 
 
-    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea{
+    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea {
         padding: 10px;
         margin: 0 10px;
         transform: scale(1);
     }
-    .input-wrapper:focus-within label{
+
+    .input-wrapper:focus-within label {
         top: -30px;
     }
 
@@ -456,41 +465,42 @@ a {
         font-size: 1rem;
     }
 
-    .contact-wrapper h3{
+    .contact-wrapper h3 {
         margin: 30px 0;
     }
 
-    .contact-list{
+    .contact-list {
         margin-left: 20px;
     }
+
     .contact-list li {
         padding: 10px;
         font-size: 1rem;
     }
 
-    .contact-list li span{
+    .contact-list li span {
         padding: 25px 0;
         font-size: 1rem;
     }
+
     /*Footer*/
     .footer {
         margin-top: 35px;
         min-height: 75px;
-        border-radius: 10px 10px 0  0;
+        border-radius: 10px 10px 0 0;
     }
 
-    .footer span{
+    .footer span {
         flex-shrink: 1;
         font-size: 1.1rem;
     }
-
 
 
 }
 
 @media screen and (min-width: 768px) {
 
-    .menu-icons{
+    .menu-icons {
         font-size: 1.9rem;
         padding: 10px;
         margin: 20px;
@@ -566,7 +576,7 @@ a {
     }
 
     .input-wrapper {
-        margin:20px 0;
+        margin: 20px 0;
     }
 
     .input-wrapper input, .input-wrapper textarea {
@@ -575,12 +585,13 @@ a {
     }
 
 
-    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea{
+    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea {
         padding: 10px;
         margin: 0 10px;
         transform: scale(1);
     }
-    .input-wrapper:focus-within label{
+
+    .input-wrapper:focus-within label {
         top: -30px;
     }
 
@@ -591,29 +602,31 @@ a {
         font-size: 1rem;
     }
 
-    .contact-wrapper h3{
+    .contact-wrapper h3 {
         margin: 30px 0;
     }
 
-    .contact-list{
+    .contact-list {
         margin-left: 20px;
     }
+
     .contact-list li {
         padding: 10px;
         font-size: 1rem;
     }
 
-    .contact-list li span{
+    .contact-list li span {
         padding: 25px 0;
         font-size: 1rem;
     }
+
     /*Contact*/
     .form {
         padding: 30px 20px;
     }
 
     .input-wrapper {
-        margin:20px 0;
+        margin: 20px 0;
     }
 
     .input-wrapper input, .input-wrapper textarea {
@@ -622,12 +635,13 @@ a {
     }
 
 
-    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea{
+    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea {
         padding: 10px;
         margin: 0 10px;
         transform: scale(1);
     }
-    .input-wrapper:focus-within label{
+
+    .input-wrapper:focus-within label {
         top: -30px;
     }
 
@@ -638,19 +652,20 @@ a {
         font-size: 1rem;
     }
 
-    .contact-wrapper h3{
+    .contact-wrapper h3 {
         margin: 30px 0;
     }
 
-    .contact-list{
+    .contact-list {
         margin-left: 20px;
     }
+
     .contact-list li {
         padding: 10px;
         font-size: 1rem;
     }
 
-    .contact-list li span{
+    .contact-list li span {
         padding: 25px 0;
         font-size: 1rem;
     }
@@ -662,7 +677,7 @@ a {
     }
 
     .input-wrapper {
-        margin:25px 0;
+        margin: 25px 0;
     }
 
     .input-wrapper input, .input-wrapper textarea {
@@ -671,11 +686,12 @@ a {
     }
 
 
-    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea{
+    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea {
         padding: 15px;
         margin: 0 15px;
     }
-    .input-wrapper:focus-within label{
+
+    .input-wrapper:focus-within label {
         top: -35px;
     }
 
@@ -685,19 +701,20 @@ a {
         font-size: 1.1rem;
     }
 
-    .contact-wrapper h3{
+    .contact-wrapper h3 {
         margin: 35px 0;
     }
 
-    .contact-list{
+    .contact-list {
         margin-left: 30px;
     }
+
     .contact-list li {
         padding: 15px;
         font-size: 1.1rem;
     }
 
-    .contact-list li span{
+    .contact-list li span {
         padding: 30px 0;
         font-size: 1.1rem;
     }
@@ -705,16 +722,21 @@ a {
 }
 
 @media screen and (min-width: 992px) {
+    .header {
+        height: 0;
+        margin-bottom: 100px;
+    }
 
-    .header, .nav{
+    .header, .nav {
         position: static;
         transform: none;
     }
 
 
-    .menu-toggle,.menu-icons{
+    .menu-toggle, .menu-icons {
         display: none;
     }
+
     .nav-item {
         margin: 15px 0;
     }
@@ -754,20 +776,21 @@ a {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .contact{
+    .contact {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .section-header{
+    .section-header {
         width: 100%;
     }
 
-    .form{
+    .form {
         max-width: 50%;
         margin-left: 5%;
     }
-    .contact-wrapper{
+
+    .contact-wrapper {
         max-width: 40%;
         text-align: center;
     }
@@ -777,7 +800,7 @@ a {
     }
 
     .input-wrapper {
-        margin:25px 0;
+        margin: 25px 0;
     }
 
     .input-wrapper input, .input-wrapper textarea {
@@ -786,11 +809,12 @@ a {
     }
 
 
-    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea{
+    .input-wrapper:focus-within input, .input-wrapper:focus-within textarea {
         padding: 15px;
         margin: 0 15px;
     }
-    .input-wrapper:focus-within label{
+
+    .input-wrapper:focus-within label {
         top: -35px;
     }
 
@@ -800,7 +824,7 @@ a {
         font-size: 1.1rem;
     }
 
-    .contact-wrapper h3{
+    .contact-wrapper h3 {
         margin: 35px 0;
     }
 
@@ -809,22 +833,22 @@ a {
         font-size: 1.2rem;
     }
 
-    .contact-list li span{
+    .contact-list li span {
         padding: 35px 0;
         font-size: 1.2rem;
     }
+
     /*Footer*/
     .footer {
         margin-top: 50px;
         min-height: 100px;
-        border-radius: 15px 15px 0  0;
+        border-radius: 15px 15px 0 0;
     }
 
-    .footer span{
+    .footer span {
         flex-shrink: 1;
         font-size: 1.2rem;
     }
-
 
 
 }
@@ -840,14 +864,12 @@ a {
     }
 
     /*Contact*/
-
     .form {
         margin-left: 10%;
     }
 
 
-
-    .input-wrapper:focus-within label{
+    .input-wrapper:focus-within label {
         top: -45px;
         font-size: 1.2rem;
     }
@@ -858,7 +880,7 @@ a {
         font-size: 1.1rem;
     }
 
-    .contact-wrapper h3{
+    .contact-wrapper h3 {
         margin: 35px 0;
         font-size: 1.6rem;
     }
@@ -868,7 +890,7 @@ a {
         font-size: 1.3rem;
     }
 
-    .contact-list li span{
+    .contact-list li span {
         padding: 40px 0;
         font-size: 1.3rem;
     }

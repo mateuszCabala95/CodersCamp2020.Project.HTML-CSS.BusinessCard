@@ -25,7 +25,7 @@ W sekcji Header znajdują się dwa główne elementy: **nawigacja** oraz **ikona
 ### Menu dla urządzeń mobilnych
 ![Menu for mobile devices](.github/images/mobile-menu-navigation.png)
 
-###Menu dla urządzeń desktopowych.
+### Menu dla urządzeń desktopowych.
 ![Menu fof desktop devices](./.github/images/desktop_menu_navigation.png)
 
 
